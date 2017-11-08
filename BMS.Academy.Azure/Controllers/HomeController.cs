@@ -13,17 +13,33 @@ namespace BMS.Academy.Azure.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Agenda()
         {
-            ViewBag.Message = "Your application description page.";
-
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Azure()
         {
-            ViewBag.Message = "Your contact page.";
+            return View();
+        }
 
+        public ActionResult Deployment()
+        {
+            return View();
+        }
+
+        public ActionResult Problems()
+        {
+            return View();
+        }
+
+        public ActionResult Staging()
+        {
+            return View();
+        }
+
+        public ActionResult References()
+        {
             return View();
         }
     }
