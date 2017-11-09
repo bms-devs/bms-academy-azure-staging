@@ -11,7 +11,7 @@ namespace BMS.Academy.Azure.Test.Controllers
         [TestMethod]
         public void SampleTestMethod_Fail()
         {
-            Assert.AreEqual(1, 2);
+            Assert.AreEqual(2, 2);
         }
     }
 }
