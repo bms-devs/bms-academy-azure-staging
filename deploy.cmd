@@ -85,7 +85,7 @@ IF !ERRORLEVEL! NEQ 0 goto error
 :: RUNNING UNIT TESTS BELLOW --------------------------
 :: 3. Building test projects 
 rem echo Building test projects 
-"%MSBUILD_PATH%" "%DEPLOYMENT_SOURCE%\BMS.Academy.Azure.Test.sln" /p:Configuration=Release;VisualStudioVersion=14.0 /verbosity:m /p:Platform="Any CPU" 
+"%MSBUILD_PATH%" "%DEPLOYMENT_SOURCE%\BMS.Academy.Azure.sln" /p:Configuration=Release;VisualStudioVersion=14.0 /verbosity:m /p:Platform="Any CPU" 
 
 IF !ERRORLEVEL! NEQ 0 (
  	echo Build failed with ErrorLevel !0!
