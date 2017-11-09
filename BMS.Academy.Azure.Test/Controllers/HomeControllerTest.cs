@@ -9,9 +9,9 @@ namespace BMS.Academy.Azure.Test.Controllers
     public class HomeControllerTest
     {
         [TestMethod]
-        public void SampleTestMethod()
+        public void SampleTestMethod_Fail()
         {
-            Assert.AreEqual(1, 1);
+            Assert.AreEqual(1, 2);
         }
     }
 }
