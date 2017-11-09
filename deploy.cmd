@@ -94,7 +94,7 @@ IF !ERRORLEVEL! NEQ 0 (
 
 :: 4. Running tests 
 echo Running tests 
-vstest.console.exe "%DEPLOYMENT_SOURCE%\BMS.Academy.Azure.Test\bin\Release\BMS.Academy.Azure.Test.dll" 
+vstest.console.exe "%DEPLOYMENT_SOURCE%\BMS.Academy.Azure.Test\bin\Release\BMS.Academy.Azure.Test.dll" /testadapterpath:"%DEPLOYMENT_SOURCE%\BMS.Academy.Azure.Test\bin\Release"
 IF !ERRORLEVEL! NEQ 0 goto error 
 :: RUNNING UNIT TESTS ABOVE --------------------------
 
